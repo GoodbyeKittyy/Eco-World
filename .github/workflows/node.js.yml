@@ -22,7 +22,7 @@ jobs:
       run: node index.js
     - name: Commit change & Push
       run: |
-          git config user.name 'YourUserNameHere'
-          git config user.email 'YourUserEmailHere'
+          git config user.name 'GoodbyeKittyy'
+          git config user.email 'reversesituation12@gmail.com'
           git commit -am "plant some tree 🌳"
           git push
