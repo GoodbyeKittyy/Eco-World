@@ -8,7 +8,7 @@ const STATE_FILE = '.commit_state.json';
 // The function is always the same "seed" block — identical every time.
 const LANGUAGE_FILES = [
   {
-    file: main.py',
+    file: 'main.py',
     block: `
 def calculate_statistics(numbers):
     """Calculate basic statistics for a list of numbers."""
@@ -38,7 +38,7 @@ def calculate_statistics(numbers):
 `,
   },
   {
-    file: Main.java',
+    file: 'Main.java',
     block: `
     public static Map<String, Double> calculateStatistics(List<Double> numbers) {
         if (numbers == null || numbers.isEmpty()) return null;
@@ -73,7 +73,7 @@ def calculate_statistics(numbers):
 `,
   },
   {
-    file: main.cs',
+    file: 'main.cs',
     block: `
 public static Dictionary<string, double> CalculateStatistics(List<double> numbers)
 {
@@ -106,7 +106,7 @@ public static Dictionary<string, double> CalculateStatistics(List<double> number
 `,
   },
   {
-    file: main.cpp',
+    file: 'main.cpp',
     block: `
 std::map<std::string, double> calculateStatistics(std::vector<double> numbers) {
     if (numbers.empty()) return {};
@@ -140,7 +140,7 @@ std::map<std::string, double> calculateStatistics(std::vector<double> numbers) {
 `,
   },
   {
-    file: main.c',
+    file: 'main.c',
     block: `
 Stats calculateStatistics(double* numbers, int count) {
     Stats result = {0};
@@ -174,7 +174,7 @@ Stats calculateStatistics(double* numbers, int count) {
 `,
   },
   {
-    file: main.js',
+    file: 'main.js',
     block: `
 function calculateStatistics(numbers) {
     if (!numbers || numbers.length === 0) return null;
@@ -201,7 +201,7 @@ function calculateStatistics(numbers) {
 `,
   },
   {
-    file: main.ts',
+    file: 'main.ts',
     block: `
 interface Statistics {
     count: number; mean: number; median: number;
@@ -229,7 +229,7 @@ function calculateStatistics(numbers: number[]): Statistics | null {
 `,
   },
   {
-    file: main.rb',
+    file: 'main.rb',
     block: `
 def calculate_statistics(numbers)
   return nil if numbers.nil? || numbers.empty?
@@ -260,7 +260,7 @@ end
 `,
   },
   {
-    file: main.go',
+    file: 'main.go',
     block: `
 func calculateStatistics(numbers []float64) map[string]float64 {
 	if len(numbers) == 0 {
@@ -300,7 +300,7 @@ func calculateStatistics(numbers []float64) map[string]float64 {
 `,
   },
   {
-    file: main.rs',
+    file: 'main.rs',
     block: `
 fn calculate_statistics(numbers: &[f64]) -> Option<HashMap<&str, f64>> {
     if numbers.is_empty() {
